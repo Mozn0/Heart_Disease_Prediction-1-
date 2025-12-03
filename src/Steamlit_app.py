@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load('../models/heart_disease_model.pkl')
+model = joblib.load('../model/heart_disease_model.pkl')
 
 st.title("❤️ Heart Disease Prediction App")
 
