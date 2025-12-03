@@ -6,6 +6,7 @@ import joblib
 # Load trained model
 model = joblib.load('../Model/heart_disease_model.pkl')
 
+
 st.title("❤️ Heart Disease Prediction App")
 
 st.write("""
